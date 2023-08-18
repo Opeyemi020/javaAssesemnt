@@ -1,18 +1,24 @@
 package chapter15;
 
+import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 
 public class FirstSample {
     public static void main(String[] args) {
 
 
+        String location = "C:\\Users\\Opeyemi02\\Desktop\\sultyFiles";
 
-        //path => /a/b/c
+        Path path = Path.of(location);
 
-        String location = "/a/b/c";
 
-        Path path = Paths
+        try {
+           Files.createTempFile(path,"note",".txt");
+        }catch (IOException exception){
+            System.out.println(exception.getMessage());
+
+        }
     }
 
 }
