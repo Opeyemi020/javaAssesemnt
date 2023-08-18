@@ -1,6 +1,5 @@
 package opeAssesement;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -40,11 +39,15 @@ public class OpeAccountTest{
     public void testThatMoneyCanBeTransferToAnotherAccount(){
         OpeAccount account = new OpeAccount();
         OpeAccount myAccount = new OpeAccount();
-        account.deposit(3000);
-        account.transfer(3000);
-        assertEquals(0,account.getBalance());
         myAccount.deposit(3000);
-        assertEquals(3000,myAccount.getBalance());
+        assertEquals(3000, myAccount.getBalance());
+        myAccount
+                .transferTo(account,2000);
+        assertEquals(2000,account
+                .getBalance());
+
+
+
 
     }
 }
