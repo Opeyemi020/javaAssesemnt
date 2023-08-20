@@ -44,7 +44,7 @@ class TaskServiceImplementationTest {
         var response = taskService.addTask(request);
         taskService.addTask(request1);
         taskService.addTask(request2);
-        taskService.deleteTask(String.valueOf(response.getTaskId()));
+        taskService.deleteTask(response.getTaskId());
         var foundTask = taskService.findBy(response.getTaskId());
         assertNull(foundTask);
         assertEquals(taskService.viewAllTask().size(), 2);

@@ -15,7 +15,7 @@ import static com.example.todolist.utils.Mapper.map;
 @Service
 @AllArgsConstructor
 public class TaskServiceImplementation implements TaskService {
-    @Autowired
+
 
     private TaskRepository taskRepository;
 
@@ -39,7 +39,7 @@ public class TaskServiceImplementation implements TaskService {
     }
 
     @Override
-    public void deleteTask(String id) {
+    public void deleteTask(Long id) {
         taskRepository.deleteById(id);
     }
 

@@ -14,7 +14,7 @@ public interface TaskService {
 
     List<Task> viewAllTask();
 
-    void deleteTask(String id);
+    void deleteTask(Long id);
 
     Task findBy(Long taskId);
 }
