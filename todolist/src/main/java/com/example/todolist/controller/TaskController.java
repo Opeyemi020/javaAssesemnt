@@ -1,12 +1,13 @@
 package com.example.todolist.controller;
 
+import com.example.todolist.dtos.request.AddTaskRequest;
+import com.example.todolist.dtos.response.AddTaskResponse;
 import com.example.todolist.services.TaskService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/addTask/")
+@RequestMapping("/sultanTask/")
 public class TaskController {
     private final TaskService taskService;
 
@@ -15,5 +16,16 @@ public class TaskController {
         this.taskService = taskService;
     }
 
-    @PostMapping
+    @PostMapping("/addTask/")
+    public ResponseEntity<AddTaskResponse> addTask(@RequestBody AddTaskRequest request){
+        AddTaskResponse response = taskService.addTask(request);
+        return ResponseEntity.ok(response);
+    }
+
+    @PostMapping("/delete/Task/{id}")
+    public ResponseEntity<?> deleteTask(@PathVariable Long id){
+    taskService.deleteTask(id);
+    return ResponseEntity.ok("task successfully deleted");
+    }
+
 }

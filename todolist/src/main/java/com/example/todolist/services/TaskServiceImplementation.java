@@ -23,8 +23,6 @@ public class TaskServiceImplementation implements TaskService {
     public AddTaskResponse addTask(AddTaskRequest addTaskRequest) {
         Task task = map(addTaskRequest);
         taskRepository.save(task);
-        AddTaskResponse addTaskResponse = new AddTaskResponse();
-        addTaskResponse.setMessage("Task added successfully");
         return map(task);
     }
 

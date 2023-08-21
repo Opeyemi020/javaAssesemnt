@@ -17,6 +17,7 @@ public class Mapper {
     }
     public static AddTaskResponse map(Task task){
         AddTaskResponse addTaskResponse = new AddTaskResponse();
+        addTaskResponse.setTask(task.getTask());
         addTaskResponse.setMessage(TASK_ADDED_SUCCESSFULLY);
         addTaskResponse.setTaskId(task.getId());
         return addTaskResponse;
