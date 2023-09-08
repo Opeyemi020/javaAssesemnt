@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb6acd7-9848-492f-95ff-42f0c25b9db7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/secondsConverter/ConvertSecondsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9eb6acd7-9848-492f-95ff-42f0c25b9db7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
@@ -23,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,12 +42,15 @@
     &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,20 +65,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="classTask" />
+      <recent name="deckAndCard" />
+      <recent name="scanner" />
       <recent name="secondsConverter" />
       <recent name="tdd" />
-      <recent name="chapter15" />
-      <recent name="leetCodeSolving" />
-      <recent name="tobiAssesement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewExample">
-    <configuration name="NewExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.NewExample" />
+  <component name="RunManager" selected="Application.Example1">
+    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter16.Example1" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="chapter16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter15.ThirdExample" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scanner.Main" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter15.*" />
+          <option name="PATTERN" value="scanner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,48 +99,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DeckOfCardsTest.testThatCardCanShuffle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.*" />
+          <option name="PATTERN" value="deckAndCard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.AcTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.testThatAccountCanDeposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tdd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.AccountTest" />
-      <option name="METHOD_NAME" value="testThatAccountCanDeposit" />
+      <option name="PACKAGE_NAME" value="deckAndCard" />
+      <option name="MAIN_CLASS_NAME" value="deckAndCard.DeckOfCardsTest" />
+      <option name="METHOD_NAME" value="testThatCardCanShuffle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.testThatAccountExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsogramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tdd.*" />
+          <option name="PATTERN" value="classTask.IsogramTest" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tdd" />
-      <option name="MAIN_CLASS_NAME" value="tdd.AccountTest" />
-      <option name="METHOD_NAME" value="testThatAccountExist" />
+      <option name="PACKAGE_NAME" value="classTask" />
+      <option name="MAIN_CLASS_NAME" value="classTask.IsogramTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsogramTest.testIsogram" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="classTask.IsogramTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="classTask" />
+      <option name="MAIN_CLASS_NAME" value="classTask.IsogramTest" />
+      <option name="METHOD_NAME" value="testIsogram" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewExample" />
-        <item itemvalue="JUnit.AcTest" />
-        <item itemvalue="JUnit.AccountTest.testThatAccountCanDeposit" />
-        <item itemvalue="JUnit.AccountTest.testThatAccountExist" />
-        <item itemvalue="Application.ThirdExample" />
+        <item itemvalue="Application.Example1" />
+        <item itemvalue="JUnit.IsogramTest.testIsogram" />
+        <item itemvalue="JUnit.IsogramTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.DeckOfCardsTest.testThatCardCanShuffle" />
       </list>
     </recent_temporary>
   </component>
@@ -170,11 +174,38 @@
       <workItem from="1692441693265" duration="4668000" />
       <workItem from="1692472937113" duration="659000" />
       <workItem from="1692488131355" duration="1125000" />
-      <workItem from="1692605546169" duration="4768000" />
+      <workItem from="1692605546169" duration="9330000" />
+      <workItem from="1692633543112" duration="5487000" />
+      <workItem from="1692777597771" duration="82000" />
+      <workItem from="1692778699672" duration="3043000" />
+      <workItem from="1692781803587" duration="11000" />
+      <workItem from="1692781843603" duration="416000" />
+      <workItem from="1692782775336" duration="7107000" />
+      <workItem from="1692797298442" duration="21000" />
+      <workItem from="1692800231777" duration="95000" />
+      <workItem from="1692821652629" duration="576000" />
+      <workItem from="1692873006045" duration="1747000" />
+      <workItem from="1692874885213" duration="1535000" />
+      <workItem from="1693074594953" duration="892000" />
+      <workItem from="1693391321723" duration="79000" />
+      <workItem from="1693391432136" duration="43000" />
+      <workItem from="1693698534146" duration="7830000" />
+      <workItem from="1693763072709" duration="693000" />
+      <workItem from="1693862776508" duration="3050000" />
+      <workItem from="1693936553113" duration="2315000" />
+      <workItem from="1694041920948" duration="2328000" />
+      <workItem from="1694073408909" duration="36000" />
+      <workItem from="1694165764519" duration="889000" />
+      <workItem from="1694167016332" duration="5622000" />
+      <workItem from="1694180411794" duration="2018000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>

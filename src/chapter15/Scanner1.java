@@ -3,7 +3,7 @@ package chapter15;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class Scanner {
+public class Scanner1 {
 
     InputStreamReader inStream = new InputStreamReader(System.in);
     BufferedReader stdin = new BufferedReader(inStream);
