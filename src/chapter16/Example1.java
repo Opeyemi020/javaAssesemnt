@@ -1,10 +1,12 @@
 package chapter16;
 
-import java.util.LinkedList;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class Example1 {
     public static void main(String[] args) {
+
 
         //Queue using the ArrBlockingQueue -> we are using the add
         // We can use the LinkList if we need to use the offer
@@ -12,7 +14,11 @@ public class Example1 {
         //Other method to perform setting operation - peek : shows the element in the front of the queue
         //poll will remove and *(return) the front item or the element that it remove
 
-        Queue<Candidate> candidates = new LinkedList<>();
+
+        Comparator<Candidate> comparator =
+                (firstCandidate,secondCandidate)->firstCandidate.getParty().compareTo(secondCandidate.getParty());
+
+        Queue<Candidate> candidates = new PriorityQueue<>(comparator);
 
         candidates.offer(new Candidate("Asiwaju","APC"));
         candidates.offer(new Candidate("chimezie","OPC"));
@@ -23,10 +29,11 @@ public class Example1 {
 
         System.out.println("Before::" + candidates);
 
-        System.out.println(candidates.peek());
+        System.out.println(candidates.poll());
+        System.out.println(candidates.poll());
+        System.out.println(candidates.poll());
+        System.out.println(candidates.poll());
+        System.out.println(candidates.poll());
 
-        candidates.poll();
-
-        System.out.println("After::" + candidates);
     }
 }

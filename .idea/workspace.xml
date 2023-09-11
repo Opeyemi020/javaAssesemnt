@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9eb6acd7-9848-492f-95ff-42f0c25b9db7" name="Changes" comment="" />
+    <list default="true" id="9eb6acd7-9848-492f-95ff-42f0c25b9db7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter16/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter16/Candidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter16/Example1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter16/Example1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,7 +76,7 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Example1">
+  <component name="RunManager" selected="JUnit.IsogramTest.testIsogram">
     <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter16.Example1" />
       <module name="untitled" />
@@ -148,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example1" />
         <item itemvalue="JUnit.IsogramTest.testIsogram" />
+        <item itemvalue="Application.Example1" />
         <item itemvalue="JUnit.IsogramTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.DeckOfCardsTest.testThatCardCanShuffle" />
@@ -197,7 +201,9 @@
       <workItem from="1694073408909" duration="36000" />
       <workItem from="1694165764519" duration="889000" />
       <workItem from="1694167016332" duration="5622000" />
-      <workItem from="1694180411794" duration="2018000" />
+      <workItem from="1694180411794" duration="11415000" />
+      <workItem from="1694301436531" duration="133000" />
+      <workItem from="1694422332090" duration="357000" />
     </task>
     <servers />
   </component>

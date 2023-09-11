@@ -1,6 +1,6 @@
 package chapter16;
 
-public class Candidate {
+public class Candidate implements Comparable<Candidate> {
 
     private String name;
     private String party;
@@ -33,5 +33,8 @@ public class Candidate {
 
     public void setParty(String party) {
         this.party = party;
+    }
+    public int compareTo(Candidate o){
+            return 0;
     }
 }
