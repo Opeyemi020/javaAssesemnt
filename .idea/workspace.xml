@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9eb6acd7-9848-492f-95ff-42f0c25b9db7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/selfLambdaExpression/Example1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter15/Hey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streamLambda/StreamSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streamLambda/StreamSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streamLambda/StreamSample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streamLambda/StreamSample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter17/streamLambda/StreamSample5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,13 +80,13 @@
       <recent name="tdd" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.selfLambdaExpression.Example1">
-    <configuration name="Example1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter16.Example1" />
+  <component name="RunManager" selected="Application.StreamSample4">
+    <configuration name="Sample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streamLambda.Sample1" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter16.*" />
+          <option name="PATTERN" value="streamLambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streamLambda.Sample1" />
+    <configuration name="StreamSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streamLambda.StreamSample" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streamLambda.*" />
+          <option name="PATTERN" value="chapter17.streamLambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamSample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter17.streamLambda.StreamSample4" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter17.streamLambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,21 +129,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsogramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="classTask.IsogramTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="classTask" />
-      <option name="MAIN_CLASS_NAME" value="classTask.IsogramTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamSample4" />
+        <item itemvalue="Application.StreamSample" />
         <item itemvalue="Application.selfLambdaExpression.Example1" />
         <item itemvalue="Application.Sample1" />
         <item itemvalue="JUnit.IsogramTest.testIsogram" />
-        <item itemvalue="Application.Example1" />
-        <item itemvalue="JUnit.IsogramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +202,9 @@
       <workItem from="1694167016332" duration="5622000" />
       <workItem from="1694180411794" duration="11415000" />
       <workItem from="1694301436531" duration="133000" />
-      <workItem from="1694422332090" duration="3797000" />
+      <workItem from="1694422332090" duration="4570000" />
+      <workItem from="1694447407624" duration="2889000" />
+      <workItem from="1694766106842" duration="3873000" />
     </task>
     <servers />
   </component>
